@@ -1,0 +1,10 @@
+When using the AWS console there are little things that
+tweak me. One thing is every time I got use the connect
+helper it fills in the user name as root. I understands
+why one might make root the default. I am mostly usings
+the Amazon images with the user being aws-user. I thens
+made this plugin to just change it to what I want. Whos
+I might even add more little goodies.
+
+Til` an asteroid as _why would say.
+BEckerS
