@@ -1,0 +1,6 @@
+content   aws_name_fixer                 chrome/content/
+skin      aws_name_fixer   classic/1.0   chrome/skin/
+locale    aws_name_fixer   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://aws_name_fixer/content/ff-overlay.xul

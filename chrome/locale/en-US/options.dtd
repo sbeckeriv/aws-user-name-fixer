@@ -1,0 +1,8 @@
+<!ENTITY prefwindow.title "AWS name fixer preferences">
+<!ENTITY pane1.title "AWS name fixer preferences">
+<!ENTITY checkboolpref.label "A Boolean Preference">
+<!ENTITY checkboolpref.accesskey "B">
+<!ENTITY intpref.label "An Integer Preference">
+<!ENTITY intpref.accesskey "I">
+<!ENTITY stringpref.label "Username:">
+<!ENTITY stringpref.accesskey "S">

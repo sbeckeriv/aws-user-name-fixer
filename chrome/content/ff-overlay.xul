@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://aws_name_fixer/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://aws_name_fixer/locale/overlay.dtd">
+<overlay id="aws_name_fixer-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="aws_name_fixer-strings" src="chrome://aws_name_fixer/locale/overlay.properties"/>
+  </stringbundleset>
+
+
+
+
+</overlay>

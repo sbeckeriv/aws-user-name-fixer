@@ -1,0 +1,8 @@
+<!ENTITY aws_name_fixer.label "Your localized menuitem">
+<!ENTITY aws_name_fixerContext.label "Your Menuitem">
+<!ENTITY aws_name_fixerContext.accesskey "Y">
+<!ENTITY aws_name_fixerToolbarButton.label "Your Toolbar Button">
+<!ENTITY aws_name_fixerToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY aws_name_fixerSidebar.label "Your Sidebar">
+<!ENTITY aws_name_fixerToolbar.name  "example">
+<!ENTITY aws_name_fixerToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &aws_name_fixerToolbar.name;">

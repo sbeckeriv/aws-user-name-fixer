@@ -1,0 +1,22 @@
+/* This is just an example.  You shouldn't do this. */
+#aws_name_fixer-hello
+{
+  color: red ! important;
+}
+#aws_name_fixer-toolbar-button
+{
+  list-style-image: url("chrome://aws_name_fixer/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#aws_name_fixer-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #aws_name_fixer-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #aws_name_fixer-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}
