@@ -4,6 +4,7 @@
 <overlay id="aws_name_fixer-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script src="overlay.js"/>
   <script src="ff-overlay.js"/>
+  <script src="jquery.min.js"/>
 
   <stringbundleset id="stringbundleset">
     <stringbundle id="aws_name_fixer-strings" src="chrome://aws_name_fixer/locale/overlay.properties"/>
