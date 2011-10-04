@@ -33,25 +33,6 @@ var aws_name_fixer = {
         },500)
       }
     
-       if(doc.location.href.search("console.aws.amazon.com/s3") > -1) {
-        setInterval(function(){
-          try{
-            if(doc.getElementById("code") && doc.getElementById('code').innerHTML.search("<span>root</span>") > -1){
-              var prefs = Components.classes["@mozilla.org/preferences-service;1"]  
-              .getService(Components.interfaces.nsIPrefService)  
-              .getBranch("extensions.aws_name_fixer.");
-
-              var name=prefs.getCharPref("stringpref") || "aws-user";
-              var div=doc.getElementById("code");
-              div.children[0].children[1].children[1].innerHTML=name;
-            }}catch(e){
-              alert(e)
-            }
-        },500)
-      }
-
-    
-    
     }catch(e){
         alert(e);
       }
