@@ -16,7 +16,7 @@ var aws_name_fixer = {
     try{ 
 
       var doc = e.originalTarget;
-      if(doc && doc.location &&doc.location.href&& doc.location.href.search("console.aws.amazon.com/ec2") > -1) {
+      if(doc && doc.location &&doc.location.href&& doc.location.href.search(/^http[s]*:\/\/[www\.]*console.aws.amazon.com\/ec2/i) > -1) {
         setInterval(function(){
           try{
             if(doc.getElementById("code") && doc.getElementById('code').innerHTML.search("<span>root</span>") > -1){
