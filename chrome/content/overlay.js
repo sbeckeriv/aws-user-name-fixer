@@ -26,7 +26,9 @@ var aws_name_fixer = {
 
               var name=prefs.getCharPref("stringpref") || "ec2-user";
               var div=doc.getElementById("code");
-              div.children[0].children[1].children[1].innerHTML=name;
+              var text = document.createTextNode(name);
+              div.children[0].children[1].children[1].removeChild(div.children[0].children[1].children[1].firstChild);
+              div.children[0].children[1].children[1].appendChild(text);
             }}catch(e){
               alert(e)
             }
@@ -50,6 +52,9 @@ var aws_name_fixer = {
   onToolbarButtonCommand: function(e) {
     // just reuse the function above.  you can change this, obviously!
     aws_name_fixer.onMenuItemCommand(e);
+  },
+  escapeHTML:function(str){
+    str.replace(/[&"<>]/g, function (m) "&" + ({ "&": "amp", '"': "quot", "<": "lt", ">": "gt" })[m] + ";");
   }
 };
 window.addEventListener("load", function () { aws_name_fixer.onLoad(); }, false);
